@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rushro2m.rx_master.android_rx.MainActivity">
+
+    <Button
+        android:id="@+id/create_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="rxAndroid"
+        android:text="create方法1" />
+
+    <Button
+        android:id="@+id/create_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="rxAndroid"
+        android:text="create方法2" />
+
+    <Button
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="rxAndroid"
+        android:text="from" />
+
+    <Button
+        android:id="@+id/interval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="rxAndroid"
+        android:text="interval" />
+
+    <Button
+        android:id="@+id/just"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="rxAndroid"
+        android:text="just" />
+
+    <Button
+        android:id="@+id/range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="rxAndroid"
+        android:text="range" />
+
+    <Button
+        android:id="@+id/filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="rxAndroid"
+        android:text="filter" />
+    <Button
+        android:id="@+id/goSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="rxAndroid"
+        android:text="goSecond" />
+</LinearLayout>
